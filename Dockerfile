@@ -7,3 +7,4 @@ RUN apk add --no-cache jq groff less python py-pip && \
   apk --purge -v del py-pip
 
 RUN git config --global credential.helper "/usr/local/bin/git-credentials-helper.sh"
+RUN go su atlantis git config --global credential.helper "/usr/local/bin/git-credentials-helper.sh"
