@@ -1,4 +1,4 @@
-FROM runatlantis/atlantis:v0.4.13
+FROM runatlantis/atlantis:v0.8.2
 
 COPY git-credentials-helper.sh /usr/local/bin/git-credentials-helper.sh
 
